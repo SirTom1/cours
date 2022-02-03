@@ -1,0 +1,46 @@
+body{
+ background-color: #000;
+ color: #fff;
+ padding-top: 10%;
+ text-align: center;
+}
+h1{
+    border-bottom: 3px solid gray;
+}
+h2, h3{
+    font-size: 2.5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+section{
+    float: left;
+    width: 50%;
+    padding: 1% 5%;
+}
+h2{
+    background-color: #e1cdb5;
+}
+
+/* SPECIFICITE */
+/* 2-0-0 */
+#h3.h3{
+    background-color: #800548;
+}
+/* 1-0-0 */
+#h3{
+    background-color: #E2ADF2;
+}
+/* 0-1-0 */
+.h3{
+    background-color: #f0803c;
+}
+
+/*  0-0-2 */
+section > h3{
+    background-color: #7899d4;
+}
+/*  0-0-1 */
+h3{
+    background-color: #225560;
+}

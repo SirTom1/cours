@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+}
+.bloc-prems {
+    background:url(gmod.jpg), no-repeat;
+    margin: 0;
+    background-size: cover;
+    padding: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    }
+
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 100px;
+    padding-bottom: 100px;
+    padding-top: 200px;
+    margin: 0px;
+    
+}
+/* ------------- */
+.shop {
+    text-align: right;
+}
+.register{
+    text-align: right;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+/* ------------- */
+.bloc-deux {
+    background-color: white;
+    margin: 0;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 100px;
+    }
+
+.hud {
+    display: inline;
+    padding-right: 240px;
+    color: rgb(0, 0, 0);
+}
+.script {
+    display: inline;
+    padding-right: 250px;
+    color: rgb(0, 0, 0);
+
+}
+.swep {
+    display: inline;
+    padding-right: 250px;
+    color: rgb(0, 0, 0);
+
+}
+.anim {
+    display: inline;
+    color: rgb(0, 0, 0);
+
+}
+/* -------------------------- */
+#hud{
+    background-color: rgb(182, 182, 182);
+    text-align: center;
+    padding-bottom: 250px;
+    font-size: 50px;
+}
+#script{
+    text-align: center;
+    padding-bottom: 250px;
+    font-size: 50px;
+}
+#Swep{
+    background-color: rgb(182, 182, 182);
+    text-align: center;
+    padding-bottom: 250px;
+    font-size: 50px;
+}
+#Animations{
+    text-align: center;
+    padding-bottom: 250px;
+    font-size: 50px;
+}

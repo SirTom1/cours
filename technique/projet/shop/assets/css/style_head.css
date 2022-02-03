@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    
+}
+header{
+    text-align: center;
+
+}
+h1{
+    margin: 0;
+    background-color: gray;
+    height: 110px;
+    padding-top: 64px;
+    color: white;
+}
+
+nav{
+    
+    display: inline-flex;
+    background-color: black;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.btn{
+    padding: 10px 50px;
+    width: 33%;
+}
+.btn:hover{
+    background-color: rgba(255, 255, 255,0.2);
+    
+}
+
+h3{
+    color: white;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+
+#bar{
+    width: 25%;
+    padding: 16px 30px;
+    border-radius: 25px;
+    margin-top: 33px;
+  
+}
+
+/*  Fin du style header / debut du style main */

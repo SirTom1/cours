@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+}
+.Titre{
+    text-align: center;
+    background-color: black;
+    width: 50%;
+    margin: auto;
+    color: white;
+    height: 200px;
+    font-size: 50px;
+    
+}
+.end{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 80px;
+}

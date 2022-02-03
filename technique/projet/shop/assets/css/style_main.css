@@ -1,0 +1,67 @@
+article{
+    width: 17%;
+    text-align: center;
+    float: left;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin: 10px  155px ;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.clear{
+    clear: both;
+}
+#bloc{
+    margin-top: 80px;
+
+}
+h4{
+    float: left;
+    font-size: 25px;
+    width: 50%;
+  }
+#prix{
+    font-size: 25px;
+    float: right;
+    margin-top: 33.25px;
+    width: 50%;
+
+}
+
+#desc{
+    width: 50%;
+    text-align: left;
+    margin-left: 10px;
+    float: left;
+}
+#add{
+    float: right;
+}
+#achat{
+    padding: 17px;
+    background-color: red;
+  }
+
+  #star{
+    text-align: left;
+    float: left;
+    width: 50%;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+#coms{
+    float: right;
+    width: 50%;
+}
+
+.separate{
+    height: 120px;
+}
+
+#paniax{
+    float: right;
+    font-size: 50px;
+    margin-right: 20px;
+    position: fixed;
+}

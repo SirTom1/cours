@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bases HTML-CSS</title>
+		<!-- CSS Vendor / Librairie -->
+		<link rel="stylesheet" href="assets/css/normalize.css">
+		<!-- CSS perso -->
+		<link rel="stylesheet" href="assets/css/base.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+       
+        <form method="post" action="" enctype="">
+        <!--METHOD = comment circulent les données en PHP, ENCTYPE concerne la récupération des fichiers, ACTION est l'url de destination des données, le service demandé -->
+            <label for="nom">Nom *</label>
+            <input type="text" id="nom" name="nom" required>
+            <br>
+            <!--ID fait le lien avec le FOR du label en HTML le NAME est récupéré en PHP. Ce type d'ID étant dans un formulaire il n'y a pas le souci de limiter l'utilisation de l'attribut ID.-->
+        
+            <label for="mdp">Mot de passe *</label>
+            <input type="password" id="mdp" name="mdp" required>
+            <br>
+        
+            <label for="email">Email *</label>
+            <!--* pour champs obligatoire REQUIRED dans l'input-->
+            <input type="email" id="email" name="email" placeholder="email" required>
+            <br>
+            <!--PLACEHOLDER est le texte explicatif en grisé dans le champs non encore rempli-->
+        
+            <label for="file">Fichier *</label>
+            <input type="file" id="file" name="file">
+            <br>
+            <!--type FILE créé un bouton "parcourir" pour aller chercher un fichier-->
+        
+            <label for="pays"></label>
+            <select id="pays" name="">
+                <option value="">--</option>
+                <!--liste déroulante avec SELECT et non INPUT-->
+                <optgroup label="Europe">
+                    <!--option groupe = sous-catégorie dans la liste-->
+                    <option value="">France</option>
+                    <option value="">Espagne</option>
+                </optgroup>
+                <optgroup label="Asie">
+                    <!--option groupe = sous-catégorie dans la liste-->
+                    <option value="">Chine</option>
+                    <option value="">Japon</option>
+                </optgroup>
+            </select>
+            <br>
+        
+            <label for="choix">Choisir</label>
+            <p>
+                <!--cases à cocher carrées, CHECKED en coche une par défaut-->
+                <input type="checkbox" name="choix">choix1
+                <input type="checkbox" name="choix">choix2
+                <input type="checkbox" name="choix">choix3
+            </p>
+        
+            <label for="civilite">Civilité</label>
+            <p>
+                <!--cases à cocher rondes, CHECKED en coche une par défaut et une seule peut être choisie-->
+                <input type="radio" name="civilite" value="m" checked>Homme
+                <input type="radio" name="civilite" value="f" checked>Femme
+            </p>
+        
+            <label for="ville">Ville</label>
+            <input type="text" id="ville" name="ville" list="france">
+            <datalist id="france">
+                <!--la datalist permet de suggérer lorsque l'utilisateur tape. couplé avec du PHP pour aller faire un lien avec une base de données-->
+                <option>Paris</option>
+                <option>Lyon</option>
+                <option>Marseille</option>
+            </datalist>
+            <br>
+        
+            <label for="cp">Code postal</label>
+            <input type="text" id="id" name="id" maxlength="5" pattern="[0-9]{5}">
+            <br>
+            <!--MAXLENGHT impose un max de caractères et PATTERN permet d'imposer le type de caractères numériques et comme PATTERN permet de préciser le nombre de caractère max, on peut enlever MAXLENGHT ici (on le garde pour les connaissances)-->
+        
+            <label for="adress">Adresse</label>
+            <textarea id="adress" name="adress" rows="5" cols="5"></textarea>
+            <br>
+            <!--zone de texte avec les réglages de sa taille ROWS et COLS-->
+        
+            <label for="jauge">Jauge</label>
+            <input type="range" min="0" max="50" value="25" id="jauge">
+            <br>
+            <!--MIN et MAX correspondent à l'échelle et VALUE à la place du curseur par défaut, ici au milieu-->
+        
+            <label for="couleur">Couleur</label>
+            <input type="color">
+            <br>
+        
+            <input type="submit" name="inscription" value="S'inscrire">
+            <input type="reset" name="efface" value="Recommencer">
+            <br>
+        
+        </form>
+
+    </body>
+</html>

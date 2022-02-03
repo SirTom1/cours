@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+header{
+    background: url(../img/dinosaure.jpg);
+}
+
+.ro{
+    transform: rotate(150deg);
+}
+
+nav{
+    text-align: center;
+    background-color: rgba(0, 0, 0,0.5);
+    color: white;
+}
+
+li{
+    margin: 10px 20px;
+    display: ruby-base;
+
+    list-style: none;
+
+}
+
+ul{
+    margin: 0;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+#centrer-img{
+    text-align: center;
+}
+
+section{
+    width: 40%;
+    margin: auto;
+}
+
+#tac{
+    text-align: center;
+    font-size: 36px;
+}
+
+span{
+    font-weight: bold;
+}
+
+#tacdeux{
+    text-align: center;
+}

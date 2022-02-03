@@ -1,0 +1,199 @@
+body{
+    margin: 0px;
+}
+.bloc-prems {
+    background:url(gmod.jpg), no-repeat;
+    margin: 0;
+    background-size: cover;
+    padding: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: right;
+
+    }
+
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 100px;
+    padding-bottom: 100px;
+    padding-top: 200px;
+    margin: 0px;
+    
+}
+/* ------------- */
+.shop {
+    text-align: right;
+}
+
+.register{
+    border-radius: 0%;
+    background-color: black;
+    margin: 30px;
+    font-size: 20px;
+    color: white;
+}
+/* ------------- */
+.bloc-deux {
+    background-color: white;
+    margin: 0;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 100px;
+    }
+
+.props {
+    display: inline;
+    padding-right: 240px;
+    color: rgb(0, 0, 0);
+}
+.pm {
+    display: inline;
+    padding-right: 250px;
+    color: rgb(0, 0, 0);
+
+}
+.anim {
+    display: inline;
+    padding-right: 250px;
+    color: rgb(0, 0, 0);
+
+}
+.particule {
+    display: inline;
+    color: rgb(0, 0, 0);
+
+}
+/* -------------------------- */
+#props2{
+    background-color: rgb(182, 182, 182);
+    padding-bottom: 150px;
+}
+.p{
+    text-align: center;
+    font-size: 50px;
+    
+}
+h4{
+        font-size: 20px;
+        text-align: center ;
+    }
+
+.produit{
+    width: 500px;
+    height: 300px;
+    text-align:center;
+    margin: auto;
+    display: flex;
+    padding-top: 50px;
+}
+.produit2{
+    width: 500px;
+    height: 300px;
+    text-align:center;
+    margin: auto;
+    display: flex;
+    padding-top: 50px;
+}
+/* ------------------------------ */
+#PlayerModel2{
+    text-align: center;
+    padding-bottom: 250px;
+    font-size: 50px;
+    margin-top: 50px;
+}
+.recent{
+    font-size: 20px;
+    text-align: center ;
+}
+.popu{
+    font-size: 20px;
+    text-align: center ;
+}
+.produit3{
+    width: 500px;
+    height: 300px;
+    text-align:center;
+    margin: auto;
+    display: flex;
+    padding-top: 50px;
+}
+.produit4{
+    width: 500px;
+    height: 300px;
+    text-align:center;
+    margin: auto;
+    display: flex;
+    padding-top: 50px;
+}
+/* ---------------------------------------- */
+#anim2{
+    background-color: rgb(182, 182, 182);
+    text-align: center;
+    padding-bottom: 250px;
+    font-size: 50px;
+}
+.recent{
+    font-size: 20px;
+    text-align: center ;
+}
+.popu{
+    font-size: 20px;
+    text-align: center ;
+}
+.produit3{
+    width: 500px;
+    height: 300px;
+    text-align:center;
+    margin: auto;
+    display: flex;
+    padding-top: 50px;
+}
+.produit4{
+    width: 500px;
+    height: 300px;
+    text-align:center;
+    margin: auto;
+    display: flex;
+    padding-top: 50px;
+}
+/* --------------------------------------- */
+#particule2{
+    text-align: center;
+    padding-bottom: 0px;
+    font-size: 50px;
+}
+.recent{
+    font-size: 20px;
+    text-align: center ;
+}
+.popu{
+    font-size: 20px;
+    text-align: center ;
+}
+.produit3{
+    width: 500px;
+    height: 300px;
+    text-align:center;
+    margin: auto;
+    display: flex;
+    padding-top: 50px;
+}
+.produit4{
+    width: 500px;
+    height: 300px;
+    text-align:center;
+    margin: auto;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+/* ------------------------------------- */
+.end{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.foot{
+    padding-top: 100px;
+}

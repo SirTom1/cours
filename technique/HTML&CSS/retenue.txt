@@ -1,0 +1,18 @@
+main = contenue d'une page qui change 
+classs = peut être utilisé plusieurs fois 
+id = utilisé que une fois 
+
+RGBA = Red Green Blue opacity 
+float = permet de mettre une image/text sur un bord de la page en enlever la marge 
+
+
+nous avons fait pas mal de tp (au total 4 ) 
+nous avons appris les floats floats "float: ;"
+
+		  les RGB "RGB(red, green, blue);" ou RGBA(red, green, blue, opacity);
+
+a faire une arborescence
+a préparé une maquette 
+a mettre des liens a des titres <a>
+a mettre un point avant une phrase pour faire une citations ou autre <li> 
+mettre un text en couleur ou mettre une background a un text 
